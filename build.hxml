@@ -1,0 +1,9 @@
+-cp src
+
+-main Main
+-js ./bin/NodeDocsCrawler.js
+
+-lib hxnodejs
+-lib tink_http
+-lib tink_cli
+-lib tink_semver
