@@ -27,7 +27,7 @@ class Main {
             html += change.discription;
         }
 
-        File.saveContent("changes.html", html);
+        File.saveContent("./bin/changes.html", html);
     }
 
     public static function nodeVersionToSemVer(version:String) {
