@@ -12,7 +12,7 @@ This tiny tool crawl over nodejs docs json file (i.e: `https://nodejs.org/docs/l
 
 For example:
 ```
-node .\bin\NodeDocsCrawler.js 9.0.0 10
+node .\bin\NodeDocsCrawler.js 9.0.0 10 // Find all changes between 9.0.0 version to 10-latest
 node .\bin\NodeDocsCrawler.js 8.2.0 9
 node .\bin\NodeDocsCrawler.js 0.12.0 4
 ```
